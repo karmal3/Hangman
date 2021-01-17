@@ -8,7 +8,6 @@ Open downloaded game folder with your favorite code editor.(used Visual Studio C
 Download and install Node.js (if already not installed).  
 
 #### Open two terminals:  
-### Open two terminals:  
 Make sure you are in correct game folder.  
 Example:
 
@@ -16,9 +15,7 @@ Example:
 C:\Users\karol\Desktop\hangman>
 ```
 #### Then on first terminal type:
-#### Then on first terminal type:  
 The game server is going to be started
-
 ```bash
 node server.js
 ```
@@ -27,3 +24,5 @@ The React application is going to be started
 ```bash
 npm start
 ```
+If it opens on the browser and you get ("This site can’t provide a secure connection"), then instead of [https://localhost:3000](http://localhost:3000) use 
+[http://localhost:3000](http://localhost:3000) to view it in the browser.
